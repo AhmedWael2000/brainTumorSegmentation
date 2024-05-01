@@ -4,6 +4,8 @@ This Jupyter Notebook implements a brain tumor segmentation model utilizing the 
 # Objective:
 
 The model aims to generate a binary mask for brain tumors in medical images.
+# outputs:
+![image](https://github.com/AhmedWael2000/brainTumorSegmentation/assets/95596511/fc4468d6-fb3b-438e-88a1-b7922c1902d9)
 
 # Evaluation Metrics:
 
@@ -12,6 +14,8 @@ We use Intersection over Union (IoU) to assess the similarity between the predic
 Loss Function:
 
 Initially, we employed Dice Loss but encountered issues. Therefore, we utilize Mean Squared Error (MSE) for this beta version.
+
+![image](https://github.com/AhmedWael2000/brainTumorSegmentation/assets/95596511/ebfe6378-7b28-4521-898a-ef4a3549346a)
 
 # Additional Information:
 
